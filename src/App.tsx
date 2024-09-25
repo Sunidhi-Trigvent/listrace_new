@@ -1,9 +1,10 @@
 import React from "react";
+import MainLayout from "./views/layout/Index";
 
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return <MainLayout />;
 }
 
 export default App;
